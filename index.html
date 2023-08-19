@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Sample 2</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>Mentoria</h1>
+      <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+    </header>
+    <form>
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Informações Pessoais</legend>
+          <div class="col-2">
+            <div class="input-wrapper">
+              <label for="participant-name">Nome</label>
+              <input type="text" id="participant-name">
+            </div>
+            <div class="input-wrapper">
+              <label for="participant-last-name">Sobrenome</label>
+              <input type="text" id="participant-last-name" />
+            </div>
+          </div>
+          
+          <div class="input-wrapper">
+            <label for="participant-email">
+              E-mail <span>(digite um e-mail válido)</span>
+            </label>
+            <input type="email" id="participant-email" />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="participant-password">
+              Senha <span>(mínimo de 8 caracteres)</span>
+            </label>
+            <input type="password" id="participant-password" />
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
